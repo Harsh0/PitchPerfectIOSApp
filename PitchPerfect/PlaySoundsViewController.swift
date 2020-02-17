@@ -20,6 +20,14 @@ class PlaySoundsViewController: UIViewController {
 
     var recordedAudioURL: URL!
     
+    @IBAction func playSoundForButton(_ sender: UIButton) {
+        print("play sound button pressed")
+    }
+    
+    @IBAction func stopSoundForButton(_ sender: UIButton) {
+        print("stop audio button pressed")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
